@@ -1,0 +1,16 @@
+name: NearbyHomes
+version: '${version}'
+main: com.jacky8399.nearbyhomes.NearbyHomes
+api-version: 1.16
+depend: [ Essentials ]
+authors: [ jacky8399 ]
+description: Find nearby player homes
+commands:
+  nearbyhomes:
+    description: NearbyHomes main command
+    usage: /nearbyhomes [radius] [x y z] [world]
+    permission: nearbyhomes.find
+
+permissions:
+  nearbyhomes.find:
+    default: op
